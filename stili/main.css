@@ -31,7 +31,7 @@ h1.Titolo {
 }
 
 .container { 
-	width:970px;
+	width:925px;
 	margin:0 auto;
 	background-image: url(https://cdn.discordapp.com/attachments/480434807235674132/480436756530069531/2018-08-18_19.48.18.png);;
     text-align: center;
@@ -39,14 +39,14 @@ h1.Titolo {
 }
 
 .Navigazione {
-	width: 970px;
+	width: 925px;
 	margin:0 auto;
-    height: 50px;
+    height: 40px;
 	background-color: #0c9b1f;
 }
 
 .Principale {
-	width: 970px;
+	width: 925px;
     height: 990px;
     background-image: url(https://cdn.discordapp.com/attachments/480434807235674132/480436756530069531/2018-08-18_19.48.18.png);;
 }
@@ -56,4 +56,38 @@ h1.Titolo {
 	margin:0 auto;
 	height:100px;
 	background-color: #0c9b1f;
+}
+
+ul.menu {
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 11px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+  
+ul.menu li {
+    background-color: #0c9b1f;
+    border-bottom: 5px solid #008112;
+    display: block;
+    width: 150px;
+    height: 30px;
+    margin: 2px;
+    float: left; 
+}
+  
+ul.menu li a {
+    color: #fff;
+    display: block;
+    font-weight: bold;
+    line-height: 30px;
+    text-decoration: none;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+}
+  
+ul.menu li.active, ul.menu li:hover {
+    background-color: #0c7b1a;
+    border-bottom: 5px solid #14561c;
 }
