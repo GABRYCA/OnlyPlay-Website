@@ -24,7 +24,7 @@ h1.Titolo {
 .container { 
 	width:1680px;
 	margin:0 auto;
-	background-color: #0c9b1f;
+	background-color: #dddddd;
     text-align: center;
     line-height: 10px;
 }
@@ -38,8 +38,8 @@ h1.Titolo {
 
 .Principale {
 	width: 1680px;
-    height: 900px;
-    background-image: url(https://cdn.discordapp.com/attachments/480434807235674132/480436756530069531/2018-08-18_19.48.18.png);;
+    height: 995px;
+    background-image: url(https://cdn.discordapp.com/attachments/480434807235674132/480436756530069531/2018-08-18_19.48.18.png);
 }
 
 .Fondo {
@@ -92,6 +92,89 @@ ul.menu li.active, ul.menu li:hover {
     background-image: url(https://cdn.discordapp.com/attachments/480434807235674132/480436756530069531/2018-08-18_19.48.18.png);;
     align-content: center
 }
+
+.Immagini {
+	color: #ff6a00;
+	Position: relative;
+	top: 15px;
+}
+
+.Contenitore-Testo-Immagini {
+	width: 360px;
+	Height: 40px;
+	background-color: #0c9b1f;
+	text-align: center;
+	margin: auto;
+	position: relative;
+	top: -10px;
+	border-radius: 10px 10px 10px 10px;
+}
+
+.contenitore-news {
+	width: 1600px;
+	height: 250px;
+	border: 15px solid #0c9b1f;
+	border-radius: 40px 40px 40px 40px;	
+	margin: auto;
+	border-left: 10px solid #05831e;
+    border-right:10px solid #05831e;
+}
+
+.news {
+	width: 400px;
+	height: 200px;
+	background-color: white;
+	border-radius: 40px 40px 40px 40px;	
+	margin: auto;
+	position: relative;
+	top: 25px;
+    border-top: 5px solid #05831e;
+    border-bottom: 5px solid #05831e;
+}
+
+.novità {
+	width: 360px;
+	Height: 40px;
+	background-color: #0c9b1f;
+	text-align: center;
+	margin: auto;
+	position: relative;
+	top: 8px;
+	border-radius: 10px 10px 10px 10px;
+	border-top: 5px solid #05831e;
+	border-left: 5px solid #05831e;
+	border-right: 5px solid #05831e;
+}
+
+.titolo-novità {
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-weight: 900;
+    color: #ff6300;
+    line-height: 1.5;
+    letter-spacing: 0.075em;
+    text-transform: uppercase;
+    margin: 0 0 1rem 0;
+}
+
+h1.Titolo-News {
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-weight: 900;
+    color: #ff6a00;
+    line-height: 1.5;
+    letter-spacing: 0.075em;
+    text-transform: uppercase;
+    margin: 0 0 1rem 0;
+}
+
+p.Testo-News {
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
+	color: #006100;
+	letter-spacing: 0.075em;
+    line-height: 1.5;
+}
+
+
+
 
 
 
