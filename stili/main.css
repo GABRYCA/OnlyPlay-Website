@@ -96,7 +96,7 @@ ul.menu li.active, ul.menu li:hover {
 .Immagini {
 	color: #ff6a00;
 	Position: relative;
-	top: 15px;
+	top: 13px;
 }
 
 .Contenitore-Testo-Immagini {
@@ -117,7 +117,7 @@ ul.menu li.active, ul.menu li:hover {
 	border-radius: 40px 40px 40px 40px;	
 	margin: auto;
 	border-left: 10px solid #05831e;
-    border-right:10px solid #05831e;
+        border-right:10px solid #05831e;
 }
 
 .news {
@@ -128,12 +128,12 @@ ul.menu li.active, ul.menu li:hover {
 	margin: auto;
 	position: relative;
 	top: 25px;
-    border-top: 5px solid #05831e;
-    border-bottom: 5px solid #05831e;
+        border-top: 5px solid #05831e;
+        border-bottom: 5px solid #05831e;
 }
 
 .novità {
-	width: 360px;
+	width: 600px;
 	Height: 40px;
 	background-color: #0c9b1f;
 	text-align: center;
@@ -147,7 +147,7 @@ ul.menu li.active, ul.menu li:hover {
 }
 
 .titolo-novità {
-	font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
     font-weight: 900;
     color: #ff6300;
     line-height: 1.5;
