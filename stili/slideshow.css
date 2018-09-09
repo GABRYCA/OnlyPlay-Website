@@ -1,1 +1,1 @@
-#slideshow {	border: 10px solid #0c9b1f;	overflow: hidden;	position: relative;	margin: 0px auto 10px;	top: 50px;	width: 1000px;	height: 500px;}#slideshow img {	width: 1000px;	height: 500px;}
+#slideshow {	border: 10px solid #0c9b1f;	border-radius: 20px 20px 20px 20px;	overflow: hidden;	position: relative;	margin: 0px auto 10px;	top: -20px;	width: 1000px;	height: 500px;}#slideshow img {	width: 1000px;	height: 500px;}
