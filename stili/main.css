@@ -1,180 +1,286 @@
-.Header {
-    background-image: url(https://cdn.discordapp.com/attachments/480434807235674132/480436756530069531/2018-08-18_19.48.18.png);;
+.container {
+	background-color: rgba(174, 251, 255, 0.85);
+	height: 3100px;
+	width: 1920px;
+}
+
+.header {
+	height: 1130px;
+	width: 1920px;
+	background-color: #39e5ff;
+}
+
+.Titolo-Server {
+	color: #fff;
+	position: relative;	
+	font-size: 90px;
+}
+
+.Contenitore-Titolo {
+	margin: auto;
+	position: relative;
+    width: 130px;
+    top: -1180px;
+    left: -800px;
+}
+
+.benvenuto {
+	margin: auto;
+    width: 1900px;
+    position: relative;
+    bottom: 1000px;
     text-align: center;
-    line-height: 50px;
 }
 
-h1.Benvenuto {	
-    font-family: "Source Sans Pro", Helvetica, sans-serif;
-    font-weight: 900;
-    color: #ff6a00;
-    line-height: 1.5;
-    letter-spacing: 0.075em;
-    text-transform: uppercase;
-    margin: 0 0 1rem 0;
+.Scritta-Benvenuto {
+	color: #fff;
+	position: relative;	
+	font-size: 150px;
 }
 
-h1.Titolo {   
-    color: #106bf2;
-    font-family: "Lucida Console", Monaco, monospace
-    font-weight: 900;
-    text-transform: uppercase;
-}
 
-.container { 
-    width:1680px;
-    margin:0 auto;
-    background-color: #dddddd;
-    text-align: center;
-    line-height: 10px;
-}
 
-.Navigazione {
-    width: 1680px;
-    margin:0 auto;
-    height: 40px;
-    background-color: #0c9b1f;
-}
 
-.Principale {
-    width: 1680px;
-    height: 995px;
-    background-image: url(https://cdn.discordapp.com/attachments/480434807235674132/480436756530069531/2018-08-18_19.48.18.png);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
+#cssmenu {
+  width: auto;
 }
-
-.Fondo {
-    width: inherit;
-    margin:0 auto;
-    height:100px;
-    background-color: #0c9b1f;
-    text-align: justify;
-    text-align: center;
-    line-height: 100px;
+#cssmenu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  display: block;
+  zoom: 2;
 }
-
-ul.menu {
-    font-family: "Lucida Console", Monaco, monospace;
-    font-size: 11px;
-    margin: 0;
-    padding: 0;
-    list-style: none;
+#cssmenu ul:after {
+  content: " ";
+  display: block;
+  font-size: 0;
+  height: 0;
+  clear: both;
+  visibility: hidden;
 }
-  
-ul.menu li {
-    background-color: #0c9b1f;
-    border-bottom: 5px solid #008112;
+#cssmenu ul li {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  top: 10px;
+  left: 450px;
+}
+#cssmenu.align-right ul li {
+  float: right;
+}
+#cssmenu.align-center ul {
+  text-align: center;
+}
+#cssmenu ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  padding: 15px 25px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
+  position: relative;
+  -webkit-transition: color .25s;
+  -moz-transition: color .25s;
+  -ms-transition: color .25s;
+  -o-transition: color .25s;
+  transition: color .25s;
+}
+#cssmenu ul li a:hover {
+  color: #333333;
+}
+#cssmenu ul li a:hover:before {
+  width: 100%;
+}
+#cssmenu ul li a:after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: -3px;
+  top: 19px;
+  height: 6px;
+  width: 6px;
+  background: #ffffff;
+  opacity: .5;
+}
+#cssmenu ul li a:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 0;
+  background: #333333;
+  -webkit-transition: width .25s;
+  -moz-transition: width .25s;
+  -ms-transition: width .25s;
+  -o-transition: width .25s;
+  transition: width .25s;
+}
+#cssmenu ul li.last > a:after,
+#cssmenu ul li:last-child > a:after {
+  display: none;
+}
+#cssmenu ul li.active a {
+  color: #333333;
+}
+#cssmenu ul li.active a:before {
+  width: 100%;
+}
+#cssmenu.align-right li.last > a:after,
+#cssmenu.align-right li:last-child > a:after {
+  display: block;
+}
+#cssmenu.align-right li:first-child a:after {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  #cssmenu ul li {
+    float: none;
     display: block;
-    width: 330px;
-    height: 30px;
-    margin: 2px;
-    float: left; 
-}
-  
-ul.menu li a {
-    color: #fff;
-    display: block;
-    font-weight: bold;
-    line-height: 30px;
-    text-decoration: none;
-    width: 330px;
-    height: 30px;
-    text-align: center;
-}
-  
-ul.menu li.active, ul.menu li:hover {
-    background-color: #0c7b1a;
-    border-bottom: 5px solid #14561c;
+  }
+  #cssmenu ul li a {
+    width: 100%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-bottom: 1px solid #fb998c;
+  }
+  #cssmenu ul li.last > a,
+  #cssmenu ul li:last-child > a {
+    border: 0;
+  }
+  #cssmenu ul li a:after {
+    display: none;
+  }
+  #cssmenu ul li a:before {
+    display: none;
+  }
 }
 
-.Contatti {
-    width: 1680px;
-    height: 990px;
-    background-image: url(https://cdn.discordapp.com/attachments/480434807235674132/480436756530069531/2018-08-18_19.48.18.png);;
-    align-content: center
+.Presentazione {
+	background-color: white;
+	margin: auto;
+	height: 1650px;
+	width: 1500px;
+	position: relative;
+	bottom: 450px;
 }
 
-.Immagini {
-    color: #ff6a00;
-    Position: relative;
-    top: 13px;
+.titolo-nostri-server {
+	height: 150px;
+	width: 100%;
+	text-align: center;
+	color: #ff8800;
 }
 
-.Contenitore-Testo-Immagini {
-    width: 360px;
-    Height: 40px;
-    background-color: #0c9b1f;
-    text-align: center;
-    margin: auto;
-    position: relative;
-    top: -10px;
-    border-radius: 10px 10px 10px 10px;
+.testo-titoli {
+	position: relative;
+	top: 20px;
+	font-size: 50px;
 }
 
-.contenitore-news {
-    width: 1600px;
-    height: 250px;
-    border: 15px solid #0c9b1f;
-    border-radius: 40px 40px 40px 40px;	
-    margin: auto;
-    border-left: 10px solid #05831e;
-    border-right:10px solid #05831e;
+.Modalità {
+	width: 100%;
+	height: 500px;
 }
 
-.news {
-    width: 400px;
-    height: 200px;
-    background-color: white;
-    border-radius: 40px 40px 40px 40px;	
-    margin: auto;
-    position: relative;
-    top: 25px;
-    border-top: 5px solid #05831e;
-    border-bottom: 5px solid #05831e;
+.prison {
+	margin: auto;
+	height: 100%;
+	width: 450px;
+	text-align: center;
+	font-family: fantasy;
+	font-size: 30px;
 }
 
-.novità {
-    width: 500px;
-    Height: 40px;
-    background-color: #0c9b1f;
-    text-align: center;
-    margin: auto;
-    position: relative;
-    top: 8px;
-    border-radius: 10px 10px 10px 10px;
-    border-top: 5px solid #05831e;
-    border-left: 5px solid #05831e;
-    border-right: 5px solid #05831e;
+.immagine-modalità {
+	position: relative;
+	top: 10px;
 }
 
-.titolo-novità {
-    font-family: "Source Sans Pro", Helvetica, sans-serif;
-    font-weight: 900;
-    color: #ff6300;
-    line-height: 1.5;
-    letter-spacing: 0.075em;
-    text-transform: uppercase;
-    margin: 0 0 1rem 0;
+.faction {
+	position: relative;
+	bottom: 500px;
+	height: 100%;
+	width: 450px;
+	text-align: center;
+	font-family: fantasy;
+	font-size: 30px;
 }
 
-h1.Titolo-News {
-    font-family: "Source Sans Pro", Helvetica, sans-serif;
-    font-weight: 900;
-    color: #ff6a00;
-    line-height: 1.5;
-    letter-spacing: 0.075em;
-    text-transform: uppercase;
-    margin: 0 0 1rem 0;
+.coming-soon {
+	position: relative;
+	left: 1050px;
+	bottom: 1000px;
+	height: 100%;
+	width: 450px;
+	text-align: center;
+	font-family: fantasy;
+	font-size: 30px;
 }
 
-p.Testo-News {
-    font-family: "Source Sans Pro", Helvetica, sans-serif;
-    color: #006100;
-    letter-spacing: 0.075em;
-    line-height: 1.5;
+.fa-question-circle {
+	zoom: 3.7;
 }
 
+.Lo-Staff {
+	background-color: #81d7ff;
+	width: 100%;
+	height: 600px;
+	position: relative;
+	bottom: 900px;
+}
 
+.scritte-staff {
+	margin: auto;
+	height: 100%;
+	width: 1000px;
+	text-align: center;
+	font-family: fantasy;
+	font-size: 35px;
+}
 
+.votaci {
+	background-color: #ffffff;
+	width: 100%;
+	height: 316px;
+	position: relative;
+	top: 500px;
+}
 
+.titolo-minecraft-italia {
+	position: relative;
+	top: 20px;
+	text-align: center;
+	color: #ff8800;
+	font-size: 50px;
+	font-family: "Arial Black", Gadget, sans-serif;
+}
 
+.vota {
+	margin: auto;
+	position: relative;
+	height: 80px;
+	width: 300px;
+	background-color: #009700;
+	top: 320px;
+	border-radius: 9px;
+	transition: all ease-in-out;
+}
 
+.testo-vota {
+	text-align: center;
+	color: #fff;
+	font-size: 70px;
+}
+
+.vota:hover {
+	background-color: #007e14;
+}

@@ -1,94 +1,215 @@
-.Header {
-    background-image: url(https://cdn.discordapp.com/attachments/480434807235674132/480436756530069531/2018-08-18_19.48.18.png);;
-    text-align: center;
-    line-height: 50px;
+.container {
+	background-color: #b1f7ff;
+	width: 1920px;
+	height: 2400px;
 }
 
-h1.Benvenuto {	
-    font-family: "Source Sans Pro", Helvetica, sans-serif;
-    font-weight: 900;
-    color: #ff6a00;
-    line-height: 1.5;
-    letter-spacing: 0.075em;
-    text-transform: uppercase;
-    margin: 0 0 1rem 0;
+.header {
+	height: 400px;
+	width: 100%;
 }
 
-h1.Titolo {   
-    color: #106bf2;
-    font-family: "Lucida Console", Monaco, monospace
-    font-weight: 900;
-    text-transform: uppercase;
-}
-
-.container { 
-	width:1680px;
-	margin:0 auto;
-	background-color: #0c9b1f;
-    text-align: center;
-    line-height: 10px;
-}
-
-.Navigazione {
-	width: 1680px;
-	margin:0 auto;
-    height: 40px;
-	background-color: #0c9b1f;
-}
-
-.Principale {
-	width: 1680px;
-    height: 900px;
-    background-image: url(https://cdn.discordapp.com/attachments/480434807235674132/480436756530069531/2018-08-18_19.48.18.png);;
-}
-
-.Fondo {
-	width: inherit;
-	margin:0 auto;
-	height:100px;
-	background-color: #0c9b1f;
-	text-align: justify;
+.titolo-contatti {
+	position: relative;
+	top: 100px;
 	text-align: center;
-    line-height: 100px;
+	color: #ff8800;
+	font-size: 100px;
+	font-family: "Arial Black", Gadget, sans-serif;
 }
 
-ul.menu {
-    font-family: "Lucida Console", Monaco, monospace;
-    font-size: 11px;
-    margin: 0;
-    padding: 0;
-    list-style: none;
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
+#cssmenu {
+  width: auto;
 }
-  
-ul.menu li {
-    background-color: #0c9b1f;
-    border-bottom: 5px solid #008112;
+#cssmenu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  display: block;
+  zoom: 2;
+}
+#cssmenu ul:after {
+  content: " ";
+  display: block;
+  font-size: 0;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+#cssmenu ul li {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  top: -100px;
+  left: 440px;
+}
+#cssmenu.align-right ul li {
+  float: right;
+}
+#cssmenu.align-center ul {
+  text-align: center;
+}
+#cssmenu ul li a {
+  color: #333;
+  text-decoration: none;
+  display: block;
+  padding: 15px 25px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
+  position: relative;
+  -webkit-transition: color .25s;
+  -moz-transition: color .25s;
+  -ms-transition: color .25s;
+  -o-transition: color .25s;
+  transition: color .25s;
+}
+#cssmenu ul li a:hover {
+  color: #ff7800;
+}
+#cssmenu ul li a:hover:before {
+  width: 100%;
+}
+#cssmenu ul li a:after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: -3px;
+  top: 19px;
+  height: 6px;
+  width: 6px;
+  background: #333;
+  opacity: .5;
+}
+#cssmenu ul li a:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 0;
+  background: #ff7800;
+  -webkit-transition: width .25s;
+  -moz-transition: width .25s;
+  -ms-transition: width .25s;
+  -o-transition: width .25s;
+  transition: width .25s;
+}
+#cssmenu ul li.last > a:after,
+#cssmenu ul li:last-child > a:after {
+  display: none;
+}
+#cssmenu ul li.active a {
+  color: #333333;
+}
+#cssmenu ul li.active a:before {
+  width: 100%;
+}
+#cssmenu.align-right li.last > a:after,
+#cssmenu.align-right li:last-child > a:after {
+  display: block;
+}
+#cssmenu.align-right li:first-child a:after {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  #cssmenu ul li {
+    float: none;
     display: block;
-    width: 330px;
-    height: 30px;
-    margin: 2px;
-    float: left; 
-}
-  
-ul.menu li a {
-    color: #fff;
-    display: block;
-    font-weight: bold;
-    line-height: 30px;
-    text-decoration: none;
-    width: 330px;
-    height: 30px;
-    text-align: center;
-}
-  
-ul.menu li.active, ul.menu li:hover {
-    background-color: #0c7b1a;
-    border-bottom: 5px solid #14561c;
+  }
+  #cssmenu ul li a {
+    width: 100%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-bottom: 1px solid #fb998c;
+  }
+  #cssmenu ul li.last > a,
+  #cssmenu ul li:last-child > a {
+    border: 0;
+  }
+  #cssmenu ul li a:after {
+    display: none;
+  }
+  #cssmenu ul li a:before {
+    display: none;
+  }
 }
 
-.Contatti {
-	width: 1680px;
-    height: 990px;
-    background-image: url(https://cdn.discordapp.com/attachments/480434807235674132/480436756530069531/2018-08-18_19.48.18.png);;
-    align-content: center
+.contatti {
+	position: relative;
+	top: -50px;
+	width: 1500px;
+	margin: auto;
+	height: 1900px;
+	background-color: #fff;
+	text-align: center;
+	border-radius: 50px;
+}
+
+.fa-discord {
+	top: 2px;
+	position: relative;
+	margin: auto;
+	align-content: center;
+	zoom: 40;
+}
+
+.immagine-discord {
+	position: relative;
+	top: 100px;
+	height: auto;
+	width: 500px;
+}
+
+.bottone-entra {
+	background-color: #009a20;
+	height: 100px;
+	width: 1000px;
+	text-align: center;
+	margin: auto;
+	position: relative;
+	top: 50px;
+	border-radius: 30px;
+}
+
+.testo-entra {
+	font-size: 65px;
+	position: relative;
+	bottom: -8px;
+	color: black;
+	font-family: ”Courier New, Courier,	mono”
+}
+
+.bottone-entra:hover {
+	background-color: green;
+}
+
+.fa-youtube {
+	top: 3px;
+	position: relative;
+	margin: auto;
+	align-content: center;
+	zoom: 40;
+	color: red;
+}
+
+.bottone-visita {
+	background-color: #009a20;
+	height: 100px;
+	width: 1000px;
+	text-align: center;
+	margin: auto;
+	position: relative;
+	top: 50px;
+	border-radius: 30px;
+}
+
+.bottone-visita:hover {
+	background-color: green;
 }
