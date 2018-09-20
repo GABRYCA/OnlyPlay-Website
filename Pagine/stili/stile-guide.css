@@ -1,22 +1,29 @@
 .container {
-	background-color: #b1f7ff;
 	width: 1920px;
-	height: 2400px;
+	height: 3000px;
+	background-color: #0034ff;
 }
 
 .header {
-	height: 400px;
-	width: 100%;
 	position: absolute;
+	background-color: #86e1ff;
+	width: 1920px;
+	height: 500px;
+	text-align: center;
 }
 
-.titolo-contatti {
+.contenitore-titolo {
 	position: relative;
-	top: 100px;
-	text-align: center;
-	color: #ff8800;
-	font-size: 100px;
-	font-family: "Arial Black", Gadget, sans-serif;
+	width: 100%;
+	top: 130px;
+}
+
+.testo-titolo {
+	position: relative;
+	color: #fff;
+	zoom: 2.9;
+	font-family: fantasy;
+	top: 5px;
 }
 
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
@@ -44,8 +51,8 @@
   padding: 0;
   margin: 0;
   position: relative;
-  top: -135px;
-  left: 445px;
+  bottom: 200px;
+  left: 200px;
 }
 #cssmenu.align-right ul li {
   float: right;
@@ -142,75 +149,12 @@
   }
 }
 
-.contatti {
+.contenitore-video {
+	background-color: white;
 	position: relative;
-	top: 350px;
+	top: 600px;
+	margin: auto;
 	width: 1500px;
-	margin: auto;
-	height: 1900px;
-	background-color: #fff;
-	text-align: center;
-	border-radius: 50px;
-}
-
-.fa-discord {
-	top: 2px;
-	position: relative;
-	margin: auto;
-	align-content: center;
-	zoom: 40;
-}
-
-.immagine-discord {
-	position: relative;
-	top: 100px;
-	height: auto;
-	width: 500px;
-}
-
-.bottone-entra {
-	background-color: #009a20;
-	height: 100px;
-	width: 1000px;
-	text-align: center;
-	margin: auto;
-	position: relative;
-	top: 50px;
+	height: 2300px;
 	border-radius: 30px;
-}
-
-.testo-entra {
-	font-size: 65px;
-	position: relative;
-	bottom: -8px;
-	color: black;
-	font-family: ”Courier New, Courier,	mono”
-}
-
-.bottone-entra:hover {
-	background-color: green;
-}
-
-.fa-youtube {
-	top: 3px;
-	position: relative;
-	margin: auto;
-	align-content: center;
-	zoom: 40;
-	color: red;
-}
-
-.bottone-visita {
-	background-color: #009a20;
-	height: 100px;
-	width: 1000px;
-	text-align: center;
-	margin: auto;
-	position: relative;
-	top: 50px;
-	border-radius: 30px;
-}
-
-.bottone-visita:hover {
-	background-color: green;
 }
