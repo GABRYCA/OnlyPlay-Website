@@ -264,23 +264,18 @@
 	font-family: "Arial Black", Gadget, sans-serif;
 }
 
-.vota {
-	margin: auto;
+button {
 	position: relative;
-	height: 80px;
-	width: 300px;
 	background-color: #009700;
-	top: 320px;
+	top: 370px;
+	left: 43%;
 	border-radius: 9px;
-	transition: all ease-in-out;
-}
-
-.testo-vota {
-	text-align: center;
 	color: #fff;
 	font-size: 70px;
+	text-align: center;
+	padding: 0px 20px;
 }
 
-.vota:hover {
+button:hover {
 	background-color: #007e14;
 }

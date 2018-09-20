@@ -175,14 +175,10 @@
 	text-align: center;
 	margin: auto;
 	position: relative;
-	top: 50px;
+	top: 120px;
 	border-radius: 30px;
-}
-
-.testo-entra {
 	font-size: 65px;
 	position: relative;
-	bottom: -8px;
 	color: black;
 	font-family: ”Courier New, Courier,	mono”
 }
@@ -198,19 +194,4 @@
 	align-content: center;
 	zoom: 40;
 	color: red;
-}
-
-.bottone-visita {
-	background-color: #009a20;
-	height: 100px;
-	width: 1000px;
-	text-align: center;
-	margin: auto;
-	position: relative;
-	top: 50px;
-	border-radius: 30px;
-}
-
-.bottone-visita:hover {
-	background-color: green;
 }
