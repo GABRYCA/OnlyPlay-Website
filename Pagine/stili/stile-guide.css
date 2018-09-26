@@ -158,3 +158,20 @@
 	height: 2300px;
 	border-radius: 30px;
 }
+
+.video-youtube1 {
+	position: relative;
+	top: 45px;
+	left: 235px;
+	border-radius: 30px;
+	zoom: 1.5;
+}
+
+.onlyprison {
+	position: relative;
+	left: 33%;
+	top: 30px;
+	zoom: 2;
+	font-family: fantasy;
+	color: #0027ff;
+}
