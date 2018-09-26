@@ -4,7 +4,7 @@
 	width: 1920px;
 }
 
-.header {
+header {
 	height: 1130px;
 	width: 1920px;
 	background-color: #39e5ff;
@@ -12,24 +12,22 @@
 
 .Titolo-Server {
 	color: #fff;
-	position: relative;	
 	font-size: 70px;
-	top: 20px;
 }
 
 .Contenitore-Titolo {
 	margin: auto;
 	position: relative;
     width: 130px;
-    top: -1180px;
-    left: -800px;
+    right: 880px;
+    bottom: 115px;
 }
 
 .benvenuto {
 	margin: auto;
     width: 1900px;
     position: relative;
-    bottom: 1000px;
+    top: 100px;
     text-align: center;
 }
 
@@ -171,7 +169,7 @@
 	height: 1650px;
 	width: 1500px;
 	position: relative;
-	bottom: 450px;
+	bottom: -100px;
 }
 
 .titolo-nostri-server {
