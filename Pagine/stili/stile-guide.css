@@ -51,7 +51,7 @@
   padding: 0;
   margin: 0;
   position: relative;
-  bottom: 200px;
+  bottom: 130px;
   left: 200px;
 }
 #cssmenu.align-right ul li {
@@ -149,29 +149,12 @@
   }
 }
 
-.contenitore-video {
+.Contenitore-Tutorials {
 	background-color: white;
-	position: relative;
-	top: 600px;
-	margin: auto;
 	width: 1500px;
 	height: 2300px;
-	border-radius: 30px;
-}
-
-.video-youtube1 {
 	position: relative;
-	top: 45px;
-	left: 235px;
+	margin: auto;
+	top: 600px;
 	border-radius: 30px;
-	zoom: 1.5;
-}
-
-.onlyprison {
-	position: relative;
-	left: 33%;
-	top: 30px;
-	zoom: 2;
-	font-family: fantasy;
-	color: #0027ff;
 }
