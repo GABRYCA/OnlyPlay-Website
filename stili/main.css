@@ -189,6 +189,8 @@ header {
 .immagine-modalità {
 	position: relative;
 	margin: auto;
+	width: auto;
+	height: auto;
 }
 
 .faction {
@@ -210,7 +212,8 @@ header {
 }
 
 .fa-question-circle {
-	zoom: 6.5;
+	zoom: 6;
+	margin: 0px 0px 1px 0px;
 }
 
 .Lo-Staff {
