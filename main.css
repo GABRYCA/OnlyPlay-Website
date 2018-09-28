@@ -3,15 +3,14 @@ body {
 }
 
 header {
-	width: 100%;
-	height: 400px;
+	width: 100vw;
+	height: 200px;
 }
 
 .titolo {
 	position: relative;
-	bottom: 300px;
+	bottom: 70%;
 	color: #fff;
-	font-size: 70px;
 	text-align: center;
 	font-family: fantasy;
 }
@@ -19,8 +18,7 @@ header {
 .ip {
 	float: left;
 	position: relative;
-	bottom: 158%;
-	font-size: 50px;
+	bottom: 150%;
 	color: white;
 	font-family: fantasy;	
 }
@@ -29,11 +27,9 @@ header {
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
 #cssmenu {
   position: relative;
-  bottom: 152%;
-  height: 10px;
-  width: auto;
+  bottom: 140%;
+  zoom: 1;
   float: right;
-  zoom: 2;
 }
 #cssmenu ul {
   list-style: none;
@@ -153,14 +149,14 @@ header {
 .Presentazione {
 	background-color: white;
 	margin: auto;
-	height: 280vh;
-	width: 90vw;
+	height: auto;
+	width: 80vw;
 	position: relative;
 	bottom: 25px;
 }
 
 .titolo-nostri-server {
-	height: 150px;
+	height: auto;
 	width: 100%;
 	text-align: center;
 	color: #ff8800;
@@ -168,140 +164,106 @@ header {
 
 .testo-titoli {
 	position: relative;
-	top: 20px;
-	font-size: 50px;
+	top: 10px;
 	text-align: center;
 }
 
 .Modalità {
 	width: 100%;
-	height: 500px;
+	height: auto;
 	text-align: center;
     display: inline-block;
+    position: relative;
+    bottom: 100%;
 }
 
 .prison {
-	margin: auto;
+	float: right;
 	height: 100%;
-	width: 25vw;
+	width: 26vw;
 	text-align: center;
 	font-family: fantasy;
-	font-size: 30px;
 	position: relative;
 }
 
 .immagine-modalità {
 	position: relative;
-	top: 10px;
 	margin: auto;
+	width: auto;
+	height: auto;
 }
 
 .faction {
 	position: relative;
-	bottom: 500px;
+	float: left;
 	height: 100%;
-	width: 25vw;
+	width: 26vw;
 	text-align: center;
 	font-family: fantasy;
-	font-size: 30px;
 }
 
 .coming-soon {
 	position: relative;
-	bottom: 1000px;
+	float: right;
 	height: 100%;
-	left: 64vw;
-	width: 25vw;
+	width: 26vw;
 	text-align: center;
 	font-family: fantasy;
-	font-size: 30px;
 }
 
 .fa-question-circle {
-	zoom: 3.7;
+	zoom: 5;
+	margin: 0px 0px 5px 0px;
 }
 
 .Lo-Staff {
 	background-color: #81d7ff;
 	width: 100%;
-	height: 600px;
+	height: auto;
 	position: relative;
-	bottom: 900px;
+	text-align: center;
+	margin: 48px 0px 46px 0px;
 }
 
 .scritte-staff {
 	margin: auto;
+	width: 80%;
 	height: 100%;
-	width: 60vw;
-	text-align: center;
 	font-family: fantasy;
-	font-size: 35px;
-}
-
-.votaci {
-	background-color: #ffffff;
-	width: 100%;
-	height: 316px;
-	position: relative;
-	top: 500px;
-}
-
-.titolo-minecraft-italia {
-	position: relative;
-	top: 20px;
 	text-align: center;
-	color: #ff8800;
-	font-size: 50px;
-	font-family: "Arial Black", Gadget, sans-serif;
+	color: #ff9600;
+}
+
+.votazioni {
+	width: 100%;
+	height: auto;
+	margin: 22px 0px 0px 0px;
 }
 
 button {
 	position: relative;
+	width: 50%;
+    left: auto;
+	height: 50px;
 	background-color: #009700;
-	top: 360px;
+	margin: auto;
 	border-radius: 9px;
 	color: #fff;
-	font-size: 70px;
 	text-align: center;
-	padding: 0px 20px;
+	transition: ease 1s;
 }
 
 button:hover {
-	background-color: #007e14;
-}
-
-.votaci2 {
-	background-color: #ffffff;
 	width: 100%;
-	height: 316px;
-	position: relative;
-	top: -500px;
-}
-
-.alternativa-minecraft-italia {
-	position: relative;
-	top: 200px;
-	text-align: center;
-	color: #ff8800;
-	font-size: 80px;
-	font-family: "Arial Black", Gadget, sans-serif;
-}
-
-.testo-vota {
-	Color: white;
-	font-size: 200px;
-}
-
-.pulsante-vota {
-	position: relative;
-	top: 200px;
-	background-color: #009f49;
-	width: 600px;
-	margin: auto;
-	height: 200px;
-	border-radius: 20px;
-}
-
-.pulsante-vota:hover {
 	background-color: #007e14;
+}
+
+.scritte-staff2 {
+	width: 100%;
+	height: 100%;
+	font-size: 30px;
+	margin: 0 auto;
+	font-family: fantasy;
+	text-align: center;
+	color: #ff9600;
 }
