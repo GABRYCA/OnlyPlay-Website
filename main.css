@@ -28,7 +28,6 @@ header {
 #cssmenu {
   position: relative;
   bottom: 140%;
-  zoom: 1;
   float: right;
 }
 #cssmenu ul {
@@ -189,8 +188,6 @@ header {
 .immagine-modalità {
 	position: relative;
 	margin: auto;
-	width: auto;
-	height: auto;
 }
 
 .faction {
@@ -212,8 +209,7 @@ header {
 }
 
 .fa-question-circle {
-	zoom: 5;
-	margin: 0px 0px 5px 0px;
+	zoom: 4.8;
 }
 
 .Lo-Staff {
@@ -246,7 +242,7 @@ button {
     left: auto;
 	height: 50px;
 	background-color: #009700;
-	margin: auto;
+	margin: 19px 0px 2px 0px;
 	border-radius: 9px;
 	color: #fff;
 	text-align: center;
