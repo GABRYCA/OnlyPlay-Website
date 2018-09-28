@@ -157,14 +157,6 @@ header {
 .titolo-nostri-server {
 	height: auto;
 	width: 100%;
-	text-align: center;
-	color: #ff8800;
-}
-
-.testo-titoli {
-	position: relative;
-	top: 10px;
-	text-align: center;
 }
 
 .Modalità {
