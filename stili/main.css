@@ -242,12 +242,18 @@ header {
 	margin: 22px 0px 0px 0px;
 }
 
+.pulsante {
+	margin: auto;
+	height: auto;
+	width: 11vw;
+	text-align: center;
+}
+
 button {
 	background:#1AAB8A;
     color:#fff;
     border:none;
     position:relative;
-    left: 340vh;
     height:60px;
     font-size:1.6em;
     padding:0 2em;
