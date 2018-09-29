@@ -4,7 +4,7 @@ body {
 
 header {
 	width: 100vw;
-	height: 200px;
+	height: 300px;
 }
 
 .titolo {
@@ -18,7 +18,7 @@ header {
 .ip {
 	float: left;
 	position: relative;
-	bottom: 150%;
+	bottom: 135%;
 	color: white;
 	font-family: fantasy;	
 }
@@ -27,8 +27,7 @@ header {
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
 #cssmenu {
   position: relative;
-  bottom: 140%;
-  zoom: 1;
+  bottom: 130%;
   float: right;
 }
 #cssmenu ul {
@@ -158,14 +157,6 @@ header {
 .titolo-nostri-server {
 	height: auto;
 	width: 100%;
-	text-align: center;
-	color: #ff8800;
-}
-
-.testo-titoli {
-	position: relative;
-	top: 10px;
-	text-align: center;
 }
 
 .Modalità {
@@ -175,6 +166,9 @@ header {
     display: inline-block;
     position: relative;
     bottom: 100%;
+    border-top: 10px solid #5fa8ff;
+    border-bottom: 10px solid #5fa8ff;
+    border-radius: 30px;
 }
 
 .prison {
@@ -189,8 +183,6 @@ header {
 .immagine-modalità {
 	position: relative;
 	margin: auto;
-	width: auto;
-	height: auto;
 }
 
 .faction {
@@ -212,12 +204,11 @@ header {
 }
 
 .fa-question-circle {
-	zoom: 6;
-	margin: 0px 0px 1px 0px;
+	zoom: 4.8;
 }
 
 .Lo-Staff {
-	background-color: #81d7ff;
+	background-color: #006bc7;
 	width: 100%;
 	height: auto;
 	position: relative;
@@ -242,27 +233,112 @@ header {
 
 button {
 	position: relative;
-	width: 50%;
-    left: auto;
+	width: 150px;
+	left: 360vh;
+    margin: auto;
 	height: 50px;
 	background-color: #009700;
-	margin: auto;
+	margin: 19px 0px 2px 0px;
 	border-radius: 9px;
 	color: #fff;
 	text-align: center;
-	transition: ease 1s;
 }
 
-button:hover {
-	width: 100%;
-	background-color: #007e14;
-}
+button {
+  -webkit-animation-iteration-count: infinite;
+  background-color: #0c7b02;
+  -webkit-animation-name: bounceIn;
+  animation-name: bounceIn;
+  -webkit-animation-duration: 10s;
+  animation-duration: 10s;
+  -webkit-animation-duration: 10s;
+  animation-duration: 10s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes bounceIn {
+  0%, 20%, 40%, 60%, 80%, 100% {
+  -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+  0% {
+  opacity: 0;
+  -webkit-transform: scale3d(.3, .3, .3);
+  transform: scale3d(.3, .3, .3);
+  }
+  20% {
+  -webkit-transform: scale3d(1.1, 1.1, 1.1);
+  transform: scale3d(1.1, 1.1, 1.1);
+  }
+  40% {
+  -webkit-transform: scale3d(.9, .9, .9);
+  transform: scale3d(.9, .9, .9);
+  }
+  60% {
+  opacity: 1;
+  -webkit-transform: scale3d(1.03, 1.03, 1.03);
+  transform: scale3d(1.03, 1.03, 1.03);
+  }
+  80% {
+  -webkit-transform: scale3d(.97, .97, .97);
+  transform: scale3d(.97, .97, .97);
+  }
+  100% {
+  opacity: 1;
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  }
+  }
+  @keyframes bounceIn {
+  0%, 20%, 40%, 60%, 80%, 100% {
+  -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+  0% {
+  opacity: 0;
+  -webkit-transform: scale3d(.3, .3, .3);
+  transform: scale3d(.3, .3, .3);
+  }
+  20% {
+  -webkit-transform: scale3d(1.1, 1.1, 1.1);
+  transform: scale3d(1.1, 1.1, 1.1);
+  }
+  40% {
+  -webkit-transform: scale3d(.9, .9, .9);
+  transform: scale3d(.9, .9, .9);
+  }
+  60% {
+  opacity: 1;
+  -webkit-transform: scale3d(1.03, 1.03, 1.03);
+  transform: scale3d(1.03, 1.03, 1.03);
+  }
+  80% {
+  -webkit-transform: scale3d(.97, .97, .97);
+  transform: scale3d(.97, .97, .97);
+  }
+  100% {
+  opacity: 1;
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  }
+  } 
 
 .scritte-staff2 {
 	width: 100%;
 	height: 100%;
 	font-size: 30px;
 	margin: 0 auto;
+	font-family: fantasy;
+	text-align: center;
+	color: #ff9600;
+}
+
+.scritte-staff3 {
+	position: relative;
+	top: 3vw;
+	margin: auto;
+	width: auto;
+	height: auto;
 	font-family: fantasy;
 	text-align: center;
 	color: #ff9600;
