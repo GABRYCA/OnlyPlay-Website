@@ -234,7 +234,7 @@ header {
 button {
 	position: relative;
 	width: 150px;
-	left: 43%;
+	left: 360vh;
     margin: auto;
 	height: 50px;
 	background-color: #009700;
