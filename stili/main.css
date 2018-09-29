@@ -243,8 +243,9 @@ header {
 }
 
 .pulsante {
+	width: 191px;
+	height: 60px;
 	margin: auto;
-	width: 11vw;
 }
 
 button {
