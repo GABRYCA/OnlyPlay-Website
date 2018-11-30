@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
         <meta name="description" content="Il sito principale di OnlyPlay.">
-        <meta name="viewport" content="width=device-width, initial-scale=.8">
+        <meta name="viewport" content="width=device-width">
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>OnlyPlay</title>
 		
@@ -21,10 +21,11 @@
 <!-- Stili e CSS vanno qui sotto e si intendono i riferimenti alle cartelle e ai file -->
   
         <link href="stili/main.css" rel="stylesheet" type="text/css">
-        <link href="stili/slideshow.css" rel="stylesheet" type="text/css">
-        <script type="text/javascript" src="scripts/xfade2.js"></script>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+        <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   
 <!-- Aggiungi con chrome alla pagina principale su android -->
 
@@ -35,81 +36,100 @@
 
 	</head>
 	
-    <body>		
+    <body>
+	    	
+		<h3 class="ip">MC.ONLYPLAY.TK</h3>
+		  
+		<div id='cssmenu'>
+		<ul>
+		   <li class='active'><a href='#'><span>Home</span></a></li>
+		   <li><a href='#'><span>Forum</span></a></li>
+		   <li><a href='#'><span>Guide</span></a></li>
+		   <li class='last'><a href='#'><span>Contatti</span></a></li>
+		</ul>
+        </div>  
+        
+	    <p class="logo"><img src="https://i.imgur.com/4HryxBt.png" border="0" class="immagine-logo"></p>
 	    
-	    <header id="particles-js">
-		<script type="text/javascript" src="app.js"></script>
-		<script type="text/javascript" src="particles.js"></script>
-		
-		<h1 class="titolo">Nuovo sito!</h1>
-		<h1 class="ip">IP:mc.onlyplay.tk</h1>
-		
-		<div id="cssmenu">
-  		<ul>
-     		<li><a href="#"><i class="fa fa-fw fa-home"></i> Home</a></li>
-     		<li><a href="#"><i class="fa fa-fw fa-bars"></i> Forum</a></li>
-     		<li><a href="https://www.onlyplay.tk/Pagine/guide.html"><i class="fa fa-fw fa-cog"></i> Guide</a></li>
-     		<li><a href="Pagine/contatti.html"><i class="fa fa-fw fa-phone"></i> Contatti</a></li>
-  		</ul>
-		</div>
+	    <div class="contenitore-pulsanti">
 		    
-	    </header>
+		    <form action=https://discord.gg/ft8tQAu target=_blank>
+              <button name=”vai” class="Discord" type=”submit”>
+              Entra nel nostro canale DISCORD
+              </button>
+		    </form>
+           
+		    <form action=https://www.minecraft-italia.it/lista-server-italiani/onlyplay target=_blank>
+              <button name=”vai” class="Votaci" type=”submit”>
+              Votaci su Minecraft Italia!
+              </button>
+		    </form>
+		    
+		    <button class="scendi" type="button" onClick="document.getElementById('server-info').scrollIntoView();"><i class="fas fa-arrow-down"></i></button>
+		    
+	    </div>
 	    
-                <div class="Presentazione">
-	                
-	                <div class="titolo-nostri-server">
-		                
-		                <h1 class="scritte-staff3">Modalità:</h1>
-		                
-	                </div>
-	                
-	            <div class="Modalità">
-		            
-		            <div class="faction">
-			            
-			            <div class="immagine-modalità"><img src="https://i.imgur.com/KGxSVLj.png" width="100"></div>
-			            <p class="scritte-presentazione"> OnlyFaction è un server OpFaction ancora non completato ed è il nostro secondo obbiettivo riguardo le modalità del server, una cosa positiva c'è, ossia che il server è stato confermato e difficilmente sarà annullato</p>
-			            
-		            </div>
-		            
-		            <div class="prison">
-			            
-			            <div class="immagine-modalità"><img src="immagini/d787d1b875be93cdcecacb0226382d5e.png" width="100"></div>
-			            <p class="scritte-presentazione"> OnlyPrison è un server OpPrison, con lo scopo di arricchirsi e diventare le persone più potenti della prigione, accompagnato da una sfilza di premi, miniere e GUI per massimizzare                   l'esperienza dell'utente</p>
-			            
-		            </div>
-		            
-		            <div class="coming-soon">
-			            
-			            <div class="immagine-modalità"><i class="far fa-question-circle"></i></div>
-			            <p class="scritte-presentazione"> Le modalità "Coming Soon" come questa sono quelle che saranno aggiunte in un futuro prossimo e che quindi non sono confermate, nella lista ci sono per esempio: Survival, Minigames, Progetto, Pixelmon</p>
-			            
-		            </div>
-		            
-	            </div>    
-		            
-		            <div class="Lo-Staff">
-			            
-			            <h1 class="scritte-staff">Lo staff è: </h1><br> <p class="scritte-staff">Sempre pronto ad accogliervi ed aiutarvi, sia su discord in #supporto che sul server, tranne nei momenti in cui è occupato con lavori di qualsiasi tipo, sia nella vita reale che nel server. Comunque è tutto sempre gentile e bravo, ovvio che vi preghiamo di non chiedere supporto a un builder, piuttosto a un admin, mod o pluginner, nel caso si verificasse la "tecnica dello scarica barile" perchè nessuno è capace di aiutarvi, quando GABRYCA verrà al corrente del vostro problema cercherà anche lui di aiutarvi, nonostante sia il proprietario<p>
-	                
-		            </div>
-		            
-		            <div class="votazioni">
-			            
-			            <h2 class="scritte-staff">Se ti piace il nostro server, votaci ogni giorno! Per farlo premi sul pulsante qua sotto "Votaci" e segui le istruzioni!</h2>
-			            
-			            <div class="pulsante">
-				            
-			            <button type="submit" onclick="location.href='https://minecraft-mp.com/server/205533/vote/'">VOTACI</button>
-			            
-			            </div>
-			            
-		            </div>
-			            
-		            </div>
-		            
-	            </div>
-
+	    <div id="server-info">
+	
+		    <h2 class="info-server">INFO HARDWARE</h2>
+		    
+		    <div class="scritte-tipi">
+		    <h3 class="ram-scritta">RAM</h3>
+		    <h3 class="numero-servers">Servers</h3>
+		    <h3 class="stato">Stato</h3>
+	        </div>
+		    
+		    <i class="fas fa-server"></i>
+		    
+		    <div class="contenitore-info">
+		    <h1 class="ram-numero">40GB</h1>
+		    <h1 class="servers-numero">7</h1>
+		    <button class="stato-online" onclick="window.location.href='https://status.onlyplay.tk/'">ONLINE</button>
+		    </div>
+		
+	    </div>
+	        
+	    <div id="staff-info">
+	
+		    <h2 class="info-staff">INFO STAFF</h2>
+		    
+		    <div class="scritte-staff">
+		    <h3 class="numero-staff">Staff Attuali</h3>
+		    <h3 class="numero-contributori">Contributori</h3>
+		    <h3 class="Donatori">Donatori</h3>
+	        </div>
+		    
+		    <div class="contenitore-info-staff">
+		    <h1 class="staff-numero">7</h1>
+		    <h1 class="contributori-numero">6</h1>
+		    <h1 class="numero-donatori">0</h1>
+		    </div>
+		    
+		    <i class="fas fa-male"></i>
+		    
+	    </div>
+	    
+	    <div class="contenitore-testo-modalità">
+	    <h1 class="testo-modalità">LE NOSTRE MODALITA':</h1>
+	    </div>
+	    
+	    <div class="modalità">
+		    
+		    <div class="OnlyPrison">
+			    <h1 class="immagini2"><img class="immagini" src="https://i.imgur.com/IsH4Wno.png"></h1>
+			    <h2 class="descrizione">Un server OpPrison che è in corso di "rinnovamento", tornerà più bello che mai con tantissime cose nuove, come prestigi e crate particolari</h2>
+		    </div>
+		    
+		    <div class="OnlyCreative">
+			    <h1 class="immagini2"><img class="immagini" src="https://i.imgur.com/OL5Pocw.png"></h1>
+			    <h2 class="descrizione-creative">Un server Creative, funzionante e finito con tantissime GUI e senza limiti, i lotti sono 64x64 e sono ammessi tutti i blocchi</h2> 
+		    </div>
+		    
+		    <div class="OnlyFaction">
+			    <h1 class="immagini2"><img class="immagini" src="https://i.imgur.com/Fhx5b5M.png"></h1>
+			    <h2 class="descrizione-onlyfaction">Un server OpFaction in costruzione, ma potrebbe essere annullato, quindi... mi dispiace nel caso</h2>
+		    </div>
+	    </div>
 	    
     </body>
     
