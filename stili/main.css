@@ -642,6 +642,7 @@ body {
 
 .immagine-logo {
 	width: 100%;
+	left: 0;
 }
 
 .ip {
@@ -655,7 +656,6 @@ body {
 	background-color: #fff;
 	border-bottom: 9px solid #1600ff;
 	border-top: 9px solid #1600ff;
-	left: -10em;
 }
 
 .contenitore-pulsanti {
