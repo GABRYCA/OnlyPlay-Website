@@ -1,17 +1,16 @@
 /* STRUTTURA PER COMPUTER 1920x1080 di DEFAULT */
 
 body {
-	width: 1920px;
+	width: 100%;
 	height: auto;
 	background-color: none;
 }
 
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
 #cssmenu {
-  width: auto;
+  float: right;
   position: relative;
   bottom: 70px;
-  left: 1450px;
 }
 #cssmenu ul {
   list-style: none;
@@ -130,18 +129,19 @@ body {
 }
 
 .immagine-logo {
-	width: 60%;
+	width: 60em;
+	position: relative;
+	left: 35em
 }
 
 .ip {
 	position: relative;
-	left: 20px;
+	left: 1em;
 	color: #0023ff;
 	font-family: fantasy;
 }
 
 .logo {
-	text-align: center;
 	background-color: #fff;
 	border-bottom: 9px solid #1600ff;
 	border-top: 9px solid #1600ff;
@@ -162,7 +162,7 @@ body {
 	border: none;
 	color: white;
 	transition: ease 0.2s;
-	left: 23%;
+	left: 12em;
 	top: 80px;
 }
 
@@ -181,7 +181,7 @@ body {
 	border: none;
 	color: white;
 	transition: ease 0.2s;
-	left: 53%;
+	left: 33em;
 	top: 30px;
 }
 
@@ -193,11 +193,11 @@ body {
 
 .scendi {
 	border: none;
-	font-size: 70px;
+	font-size: 6em;
 	border-radius: 45%;
 	background-color: #fff;
 	position: relative;
-	left: 925px;
+	left: 11em;
 	color: #0a00ff;
 	top: 155px;
 	transition: ease 0.5s;
@@ -268,15 +268,14 @@ body {
  }
  
  #server-info {
-	 width: 1920px;
+	 width: 100%;
 	 height: 400px;
 	 background-color: #4df9f6;
-	 align-content: space-around;
 	 position: relative;
  }
  
  .scritte-tipi {
-	 width: auto;
+	 width: 100%;
 	 height: 60px;
 	 align-content: center;
 	 position: relative;
@@ -285,7 +284,7 @@ body {
  .info-server {
 	 color: #fff;
 	 position: relative;
-	 left: 760px;
+	 left: 17em;
 	 top: 20px;
  }
  
@@ -298,21 +297,21 @@ body {
  .ram-scritta {
 	 color: #fff;
 	 position: relative;
-	 left: 500px;
+	 left: 14.8em;
 	 top: 50px;
  }
  
  .numero-servers {
 	 color: #fff;
 	 position: relative;
-	 left: 900px;
+	 left: 26.3em;
 	 top: -15px;
  }
  
  .stato {
 	 color: #fff;
 	 position: relative;
-	 left: 1300px;
+	 left: 38.5em;
 	 top: -75px;
  }
  
@@ -320,7 +319,7 @@ body {
 	 color: #001fff;
 	 zoom: 12;
 	 position: relative;
-	 left: 135px;
+	 left: 9.8em;
  }
  
  .ram-numero {
@@ -331,7 +330,7 @@ body {
 	 position: relative;
 	 bottom: -300px;
 	 border-radius: 10px;
-	 left: 460px;
+	 left: 8.2em;
  }
  
  .servers-numero {
@@ -342,7 +341,7 @@ body {
 	 position: relative;
 	 bottom: -200px;
 	 border-radius: 10px;
-	 left: 880px;
+	 left: 15.6em;
  }
  
  .stato-online {
@@ -353,7 +352,7 @@ body {
 	 position: relative;
 	 bottom: -95px;
 	 border-radius: 10px;
-	 left: 1230px;
+	 left: 20.5em;
 	 border: 5px dotted #0a00ff;
 	 font-size: 60px;
 	 transition: ease-in 0.1s;
@@ -365,18 +364,17 @@ body {
  }
  
  #staff-info {
-	 width: 1920px;
+	 width: 100%;
 	 height: 400px;
 	 background-color: #1b00ff;
-	 align-content: space-around;
 	 position: relative;
 	 top: 110px;
  }
  
 .info-staff {
-	color: #fff;
+	 color: #fff;
 	 position: relative;
-	 left: 830px;
+	 left: 18.5em;
 	 top: 10px;
 }
 
@@ -389,14 +387,14 @@ body {
  .numero-staff {
 	 color: #fff;
 	 position: relative;
-	 left: 450px;
+	 left: 13.3em;
 	 top: 25px;
  }
  
  .numero-contributori {
 	 color: #fff;
 	 position: relative;
-	 left: 870px;
+	 left: 25.5em;
 	 bottom: 40px;
  }
  
@@ -408,7 +406,7 @@ body {
 	 position: relative;
 	 bottom: -350px;
 	 border-radius: 10px;
-	 left: 460px;
+	 left: 8.2em;
  }
  
  .contributori-numero {
@@ -419,13 +417,13 @@ body {
 	 position: relative;
 	 bottom: -250px;
 	 border-radius: 10px;
-	 left: 880px;
+	 left: 15.6em;
  }
  
  .Donatori {
 	 color: #fff;
 	 position: relative;
-	 left: 1280px;
+	 left: 37.6em;
 	 bottom: 100px;
  }
  
@@ -437,7 +435,7 @@ body {
 	 position: relative;
 	 top: 145px;
 	 border-radius: 10px;
-	 left: 1230px;
+	 left: 20.4em;
 	 border: 5px solid #0a00ff;
 	 font-size: 60px;
 }
@@ -446,12 +444,12 @@ body {
 	color: #fff;
 	zoom: 10;
 	position: relative;
-	left: 165px;
+	left: 11.5em;
 	bottom: 45px;
 }
 
 .contenitore-testo-modalità {
-	width: 1920px;
+	width: 100%;
 	height: 70px;
 	position: relative;
 	top: 200px;
@@ -464,7 +462,7 @@ body {
 }
 
 .modalità {
-	width: 1920px;
+	width: 100%;
 	height: 600px;
 	position: relative;
 	background-color: #1466ff;
@@ -472,28 +470,28 @@ body {
 }
 
 .OnlyPrison {
-	width: 636px;
+	width: 45.4em;
 	height: 100%;
 	background-color: #000000;	
 	border: 2px solid #fff
 }
 
 .OnlyCreative {
-	width: 636px;
+	width: 45.4em;
 	height: 100%;
 	background-color: #056c1a;	
 	position: relative;
-	left: 640px;
+	left: 45.7em;
 	bottom: 604px;
 	border: 2px solid #fff
 }
 
 .OnlyFaction {
-	width: 636px;
+	width: 45.5em;
 	height: 100%;
 	background-color: #37e757;	
 	position: relative;
-	left: 1280px;
+	left: 91.35em;
 	bottom: 1208px;
 	border: 2px solid #fff
 }
@@ -503,7 +501,7 @@ body {
 	top: 40px;
 	border: 0;
 	text-align: center;
-	width: 500px;
+	width: 10em;
 }
 
 .immagini2 {
@@ -541,11 +539,11 @@ body {
 
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
 #cssmenu {
-  width: auto;
+  width: 100%;
+  float: none;
   position: relative;
-  bottom: none;
-  left: 60%;
   top: -13px;
+  left: 4%;
 }
 #cssmenu ul {
   list-style: none;
@@ -578,7 +576,7 @@ body {
   color: #0030eb;
   text-decoration: none;
   display: block;
-  padding: 15px 25px;
+  padding: 15px 20px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
@@ -639,29 +637,6 @@ body {
 #cssmenu.align-right li:first-child a:after {
   display: none;
 }
-@media screen and (max-width: 768px) {
-  #cssmenu ul li {
-    float: none;
-    display: block;
-  }
-  #cssmenu ul li a {
-    width: 100%;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    border-bottom: 1px solid #fb998c;
-  }
-  #cssmenu ul li.last > a,
-  #cssmenu ul li:last-child > a {
-    border: 0;
-  }
-  #cssmenu ul li a:after {
-    display: none;
-  }
-  #cssmenu ul li a:before {
-    display: none;
-  }
-}
 
 .immagine-logo {
 	width: 100%;
@@ -675,10 +650,10 @@ body {
 }
 
 .logo {
-	text-align: center;
 	background-color: #fff;
 	border-bottom: 9px solid #1600ff;
 	border-top: 9px solid #1600ff;
+	left: -10em;
 }
 
 .contenitore-pulsanti {
@@ -815,7 +790,7 @@ body {
  .info-server {
 	 color: #fff;
 	 position: relative;
-	 left: 7%;
+	 left: 3%;
 	 top: 20px;
  }
  
@@ -990,7 +965,7 @@ body {
 }
 
 .contenitore-testo-modalità {
-	width: auto;
+	width: 100%;
 	height: 70px;
 	position: relative;
 	top: 200px;
@@ -1003,7 +978,7 @@ body {
 }
 
 .modalità {
-	width: auto;
+	width: 100%;
 	height: 2100px;
 	position: relative;
 	background-color: #1466ff;
