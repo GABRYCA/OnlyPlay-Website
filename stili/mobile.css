@@ -243,7 +243,7 @@ body {
  }
  
  #server-info {
-	 width: auto;
+	 width: 100%;
 	 height: 1200px;
 	 background-color: #4df9f6;
 	 align-content: space-around;
@@ -251,7 +251,7 @@ body {
  }
  
  .scritte-tipi {
-	 width: auto;
+	 width: 100%;
 	 height: auto;
 	 align-content: center;
 	 position: relative;
@@ -307,7 +307,7 @@ body {
  
  .ram-numero {
 	 text-align: center;
-	 width: 150px;
+	 width: 2.5;
 	 color: #1b00ff;
 	 background-color: #fff;
 	 position: relative;
@@ -318,7 +318,7 @@ body {
  
  .servers-numero {
 	 text-align: center;
-	 width: 150px;
+	 width: 2.5;
 	 color: #1b00ff;
 	 background-color: #fff;
 	 position: relative;
@@ -329,7 +329,7 @@ body {
  
  .stato-online {
 	 text-align: center;
-	 width: 230px;
+	 width: 4em;
 	 color: #00aa04;
 	 background-color: #fff;
 	 position: relative;
@@ -347,7 +347,7 @@ body {
  }
  
  #staff-info {
-	 width: auto;
+	 width: 100%;
 	 height: 1200px;
 	 background-color: #1b00ff;
 	 align-content: space-around;
@@ -386,7 +386,7 @@ body {
  
  .staff-numero {
 	 text-align: center;
-	 width: 150px;
+	 width: 2.5em;
 	 color: #1b00ff;
 	 background-color: #fff;
 	 position: relative;
@@ -397,7 +397,7 @@ body {
  
  .contributori-numero {
 	 text-align: center;
-	 width: 150px;
+	 width: 2.5em;
 	 color: #1b00ff;
 	 background-color: #fff;
 	 position: relative;
@@ -415,7 +415,7 @@ body {
  
 .numero-donatori {
 	 text-align: center;
-	 width: 150px;
+	 width: 2.5em;
 	 color: #e25d5d;
 	 background-color: #fff;
 	 position: relative;
@@ -487,7 +487,7 @@ body {
 	top: 40px;
 	border: 0;
 	text-align: center;
-	width: 400px;
+	width: 100%;
 }
 
 .immagini2 {
