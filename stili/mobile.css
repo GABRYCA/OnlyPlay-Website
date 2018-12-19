@@ -1,6 +1,6 @@
-/* STRUTTURA PER COMPUTER 1920x1080 di DEFAULT */
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
-
+@media (max-width: 767px) {
+/* STRUTTURA PER MOBILE < 767 */
 body {
 	width: 100%;
 	height: auto;
@@ -9,9 +9,11 @@ body {
 }
 
 #cssmenu {
-  float: right;
+  width: 100%;
+  float: none;
   position: relative;
-  bottom: 70px;
+  top: -13px;
+  left: 4%;
 }
 #cssmenu ul {
   list-style: none;
@@ -44,7 +46,7 @@ body {
   color: #0030eb;
   text-decoration: none;
   display: block;
-  padding: 15px 25px;
+  padding: 15px 20px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
@@ -105,39 +107,15 @@ body {
 #cssmenu.align-right li:first-child a:after {
   display: none;
 }
-@media screen and (max-width: 768px) {
-  #cssmenu ul li {
-    float: none;
-    display: block;
-  }
-  #cssmenu ul li a {
-    width: 100%;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    border-bottom: 1px solid #fb998c;
-  }
-  #cssmenu ul li.last > a,
-  #cssmenu ul li:last-child > a {
-    border: 0;
-  }
-  #cssmenu ul li a:after {
-    display: none;
-  }
-  #cssmenu ul li a:before {
-    display: none;
-  }
-}
 
 .immagine-logo {
-	width: 60em;
-	position: relative;
-	left: 35em
+	width: 100%;
+	left: 0;
 }
 
 .ip {
 	position: relative;
-	left: 1em;
+	left: 20px;
 	color: #0023ff;
 	font-family: fantasy;
 }
@@ -150,21 +128,19 @@ body {
 
 .contenitore-pulsanti {
 	height: 600px;
-	background-color: #fff;
-	
+	background-color: #fff;	
+	width: 100%;
 }
 
 .Discord {
-	width: auto;
-	height: 50px;
+	width: 300px;
+	height: 80px;
 	position: relative;
 	font-size: xx-large;
 	background-color: #9d25ff;
-	border: none;
 	color: white;
 	transition: ease 0.2s;
-	left: 12em;
-	top: 80px;
+	left: 15%;
 }
 
 .Discord:hover {
@@ -174,16 +150,15 @@ body {
 }
 
 .Votaci {
-	width: auto;
-	height: 50px;
+	width: 300px;
+	height: 80px;
 	position: relative;
 	font-size: xx-large;
 	background-color: #30a74c;
-	border: none;
 	color: white;
 	transition: ease 0.2s;
-	left: 33em;
-	top: 30px;
+	top: 150px; 
+	left: 15%;
 }
 
 .Votaci:hover {
@@ -193,14 +168,13 @@ body {
 }
 
 .scendi {
-	border: none;
-	font-size: 6em;
+	font-size: 70px;
 	border-radius: 45%;
 	background-color: #fff;
 	position: relative;
-	left: 11em;
+	left: 42%;
 	color: #0a00ff;
-	top: 155px;
+	top: 285px;
 	transition: ease 0.5s;
 }
 
@@ -269,15 +243,16 @@ body {
  }
  
  #server-info {
-	 width: 100%;
-	 height: 400px;
+	 width: auto;
+	 height: 1200px;
 	 background-color: #4df9f6;
+	 align-content: space-around;
 	 position: relative;
  }
  
  .scritte-tipi {
-	 width: 100%;
-	 height: 60px;
+	 width: auto;
+	 height: auto;
 	 align-content: center;
 	 position: relative;
  }
@@ -285,7 +260,7 @@ body {
  .info-server {
 	 color: #fff;
 	 position: relative;
-	 left: 17em;
+	 left: 3%;
 	 top: 20px;
  }
  
@@ -298,29 +273,36 @@ body {
  .ram-scritta {
 	 color: #fff;
 	 position: relative;
-	 left: 14.8em;
-	 top: 50px;
+	 left: 40%;
+	 top: 100px;
+	 font-weight: bold;
+	 font-family: fantasy;
  }
  
  .numero-servers {
 	 color: #fff;
 	 position: relative;
-	 left: 26.3em;
-	 top: -15px;
+	 left: 35%;
+	 top: 300px;
+	 font-weight: bold;
+	 font-family: fantasy;
  }
  
  .stato {
 	 color: #fff;
 	 position: relative;
-	 left: 38.5em;
-	 top: -75px;
+	 left: 40%;
+	 top: 500px;
+	 font-weight: bold;
+	 font-family: fantasy;
  }
  
  .fa-server {
 	 color: #001fff;
 	 zoom: 12;
 	 position: relative;
-	 left: 9.8em;
+	 left: 30%;
+	 top: 58px;
  }
  
  .ram-numero {
@@ -329,9 +311,9 @@ body {
 	 color: #1b00ff;
 	 background-color: #fff;
 	 position: relative;
-	 bottom: -300px;
+	 bottom: -200px;
 	 border-radius: 10px;
-	 left: 8.2em;
+	 left: 30%;
  }
  
  .servers-numero {
@@ -340,9 +322,9 @@ body {
 	 color: #1b00ff;
 	 background-color: #fff;
 	 position: relative;
-	 bottom: -200px;
+	 bottom: -370px;
 	 border-radius: 10px;
-	 left: 15.6em;
+	 left: 30%;
  }
  
  .stato-online {
@@ -351,9 +333,9 @@ body {
 	 color: #00aa04;
 	 background-color: #fff;
 	 position: relative;
-	 bottom: -95px;
+	 top: 530px;
 	 border-radius: 10px;
-	 left: 20.5em;
+	 left: 23%;
 	 border: 5px dotted #0a00ff;
 	 font-size: 60px;
 	 transition: ease-in 0.1s;
@@ -365,18 +347,19 @@ body {
  }
  
  #staff-info {
-	 width: 100%;
-	 height: 400px;
+	 width: auto;
+	 height: 1200px;
 	 background-color: #1b00ff;
+	 align-content: space-around;
 	 position: relative;
 	 top: 110px;
  }
  
 .info-staff {
-	 color: #fff;
+	color: black;
 	 position: relative;
-	 left: 18.5em;
-	 top: 10px;
+	 top: 15px;
+	 left: 20%;
 }
 
  .contenitore-info-staff {
@@ -388,15 +371,17 @@ body {
  .numero-staff {
 	 color: #fff;
 	 position: relative;
-	 left: 13.3em;
-	 top: 25px;
+	 left: 25%;
+	 top: 65px;
+	 font-weight: bold;
+	 font-family: fantasy;
  }
  
  .numero-contributori {
 	 color: #fff;
 	 position: relative;
-	 left: 25.5em;
-	 bottom: 40px;
+	 left: 26%;
+	 bottom: -280px;
  }
  
  .staff-numero {
@@ -407,7 +392,7 @@ body {
 	 position: relative;
 	 bottom: -350px;
 	 border-radius: 10px;
-	 left: 8.2em;
+	 left: 30%;
  }
  
  .contributori-numero {
@@ -416,27 +401,27 @@ body {
 	 color: #1b00ff;
 	 background-color: #fff;
 	 position: relative;
-	 bottom: -250px;
+	 bottom: -535px;
 	 border-radius: 10px;
-	 left: 15.6em;
+	 left: 29%;
  }
  
  .Donatori {
 	 color: #fff;
 	 position: relative;
-	 left: 37.6em;
-	 bottom: 100px;
+	 left: 32%;
+	 top: 500px;
  }
  
 .numero-donatori {
 	 text-align: center;
-	 width: 230px;
+	 width: 150px;
 	 color: #e25d5d;
 	 background-color: #fff;
 	 position: relative;
-	 top: 145px;
+	 top: 715px;
 	 border-radius: 10px;
-	 left: 20.4em;
+	 left: 28%;
 	 border: 5px solid #0a00ff;
 	 font-size: 60px;
 }
@@ -445,8 +430,8 @@ body {
 	color: #fff;
 	zoom: 10;
 	position: relative;
-	left: 11.5em;
-	bottom: 45px;
+	left: 40%;
+	bottom: -40px;
 }
 
 .contenitore-testo-modalità {
@@ -459,41 +444,41 @@ body {
 .testo-modalità {
 	text-align: center;
 	font-family: fantasy;
-	font-weight: bold
+	font-weight: bold;
 }
 
 .modalità {
 	width: 100%;
-	height: 600px;
+	height: 2100px;
 	position: relative;
 	background-color: #1466ff;
 	top: 350px;
 }
 
 .OnlyPrison {
-	width: 45.4em;
-	height: 100%;
+	width: 100%;
+	height: 700px;
 	background-color: #000000;	
 	border: 2px solid #fff
 }
 
 .OnlyCreative {
-	width: 45.4em;
-	height: 100%;
+	width: 100%;
+	height: 700px;
 	background-color: #056c1a;	
 	position: relative;
-	left: 45.7em;
-	bottom: 604px;
+	left: 0px;
+	bottom: 0px;
 	border: 2px solid #fff
 }
 
 .OnlyFaction {
-	width: 45.5em;
-	height: 100%;
+	width: 100%;
+	height: 700px;
 	background-color: #37e757;	
 	position: relative;
-	left: 91.35em;
-	bottom: 1208px;
+	left: 0px;
+	bottom: 0px;
 	border: 2px solid #fff
 }
 
@@ -502,7 +487,7 @@ body {
 	top: 40px;
 	border: 0;
 	text-align: center;
-	width: 10em;
+	width: 400px;
 }
 
 .immagini2 {
@@ -528,4 +513,5 @@ body {
 	text-align: center;
 	position: relative;
 	top: 105px;
+}
 }
