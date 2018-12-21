@@ -1,6 +1,5 @@
 /* STRUTTURA PER COMPUTER 1920x1080 di DEFAULT */
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
-@media (min-width: 768px) {
 
 body {
 	width: 100%;
@@ -529,5 +528,4 @@ body {
 	text-align: center;
 	position: relative;
 	top: 105px;
-}
 }
