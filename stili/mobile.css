@@ -1,6 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
 /* STRUTTURA PER MOBILE < 767 */
-@media (max-width: 767px)
+@media (max-width: 767px){
 
 body {
 	width: 100%;
