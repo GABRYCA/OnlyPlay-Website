@@ -370,21 +370,21 @@ body {
 
 .OnlyPrison {
 	width: 100vw;
-	height: 75vh;
+	height: auto;
 	background-color: #000000;
 	margin-bottom: 1vh;
 }
 
 .OnlyCreative {
 	width: 100vw;
-	height: 75vh;
+	height: auto;
 	background-color: #00c011;
 	margin-bottom: 1vh;
 }
 
 .OnlyFaction {
 	width: 100vw;
-	height: 75vh;
+	height: auto;
 	background-color: #57186b;
 }
 
