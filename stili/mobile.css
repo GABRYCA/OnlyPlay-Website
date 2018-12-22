@@ -387,4 +387,9 @@ body {
 	background-color: #57186b;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+	
 }
