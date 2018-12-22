@@ -347,4 +347,46 @@ body {
 	margin-top: 10px;
 }
 
+.contenitore-testo-modalità {
+	margin: auto;
+	width: 100%;
+	text-align: center;
+	margin-top: 100px;
+}
+
+.testo-modalità {
+	font-family: fantasy;
+}
+
+.modalità {
+	width: 100%;
+	height: 1500px;
+	text-align: center;
+	color: #fff;
+}
+
+.immagini {
+	max-width: 100%;
+}
+
+.OnlyPrison {
+	width: 100%;
+	height: 500px;
+	background-color: #000000;
+	margin-bottom: 5px;
+}
+
+.OnlyCreative {
+	width: 100%;
+	height: 500px;
+	background-color: #00c011;
+	margin-bottom: 5px;
+}
+
+.OnlyFaction {
+	width: 100%;
+	height: 500px;
+	background-color: #57186b;
+}
+
 }
