@@ -230,7 +230,7 @@ body {
 .contenitore-info {
 	width: 50%;
 	text-align: center;
-	float: right;
+	float: left;
 	margin-top: 30px;
 	height: 494px;
 }
@@ -315,7 +315,7 @@ body {
 
 .contenitore-info-staff {
 	text-align: center;
-	float: right;
+	float: left;
 	width: 50%;
 	margin-top: 50px;
 	height: 697px;
