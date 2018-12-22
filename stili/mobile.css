@@ -2,15 +2,12 @@
 /* STRUTTURA PER MOBILE < 767 */
 
 @media (max-width: 767px) {
-
-html {
-overflow-x: hidden;
-}
 	
 body {
 	width: auto;
 	height: auto;
 	background-color: none;
+	overflow-x: hidden;
 }
 
 #cssmenu {
