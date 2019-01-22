@@ -1,3 +1,7 @@
+@-ms-viewport{
+    height: 500px;
+}
+
 body {
     width: 1920px;
     height: auto;
