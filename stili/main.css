@@ -171,6 +171,32 @@ header {
     background-color: #008b45;
 }
 
+@media screen and (max-width: 1600px) {
+
+    .contenitore-pulsanti {
+        text-align: center;
+        width: 600px;
+        margin: 0 auto;
+    }
+
+    .Discord {
+        position: relative;
+        top: 100px;
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .Votaci {
+        position: relative;
+        top: 200px;
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+}
+
 .Info-server {
     width: 100%;
     height: 500px;
