@@ -195,6 +195,11 @@ header {
         margin: 0 auto;
     }
 
+    #cssmenu {
+        transform: scale(0.8);
+        right: 0px;
+    }
+
 }
 
 .Info-server {
