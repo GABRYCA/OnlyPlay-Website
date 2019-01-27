@@ -2,7 +2,8 @@ body {
     width: 100%;
     margin: 0 auto;
     height: auto;
-    background-color: #212529;;
+    background-color: #212529;
+    overflow-x: hidden;
 }
 
 header {
