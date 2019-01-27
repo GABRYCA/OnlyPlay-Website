@@ -1,0 +1,101 @@
+body {
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+    background-color: #212529;;
+}
+
+header {
+    background-color: rgba(0,3,22,0.77);
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-top: 0;
+    bottom: 20px;
+}
+
+.contenitore-immagine {
+    text-align: center;
+}
+
+.contenitore-stati {
+    width: 80%;
+    height: 700px;
+    background-color: #fff;
+    position: relative;
+    top: 50px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.spazio-grigio {
+    background-color: rgba(0,0,0,0.22);
+    width: 90%;
+    margin: 0 auto;
+    height: 35px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.servers {
+    margin-left: 10px;
+    top: 8px;
+    position: relative;
+    font-family: Avenir;
+}
+
+.stato {
+    text-align: center;
+    font-family: Athelas;
+    position: relative;
+    top: 10px;
+}
+
+.contenitore-effettivo {
+    width: 90%;
+    margin: 0 auto;
+    height: 90%;
+}
+
+.contenitore-modalità {
+    height: 60px;
+    width: 99.5%;
+    border-top: rgba(0,0,0,0.64) 1px solid;
+    border-bottom: rgba(0,0,0,0.64) 1px solid;
+    border-left: rgba(0,138,255,0.41) 5px solid;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.fa-check-circle {
+    color: rgba(0,212,1,0.7);
+    transform: scale(2);
+    position: relative;
+    top: 20px;
+    left: 15px;
+    float: left;
+}
+
+.link {
+    color: #000;
+    float: left;
+    margin-left: 50px;
+    border-bottom: none;
+    position: relative;
+    font-size: x-large;
+    top: 15px;
+    color: #0b00ff;
+    font-style: normal;
+    font-family: Avenir;
+}
+
+.online {
+    position: relative;
+    left: 80%;
+    font-family: Avenir;
+    color: #00ec2a;
+    bottom: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
