@@ -1,0 +1,183 @@
+body {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+.Contatti {
+    color: rgba(0,0,255,0.77);
+    text-align: center;
+    font-family: Copperplate;
+    font-size: 50pt;
+    border-radius: 10px;
+    border: solid 1px rgba(0,0,255,0.77);
+    width: 45%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.membri-staff {
+    margin: auto;
+    margin-top: 150px;
+    width: 50%;
+}
+
+.centratore-testa {
+    text-align: center;
+}
+
+.descrizione {
+    text-align: center;
+    color: rgba(6,0,156,0.85);
+    font-family: Monaco;
+}
+
+.membro-singolo-founder {
+    border: #ff001d solid 1px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+.membro-singolo-admin {
+    border: #920500 solid 1px;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.membro-singolo-pluginner {
+    border: #000a92 solid 1px;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.membro-singolo-botdeveloper {
+    border: #560092 solid 1px;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.membro-singolo-moderatore {
+    border: #006e17 solid 1px;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.membro-singolo-builder {
+    border: #f0c730 solid 1px;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.founder {
+    font-family: Copperplate;
+    font-style: bold;
+    font-size: 30pt;
+    color: #ff001d;
+    text-align: center;
+}
+
+.admin {
+    font-family: Copperplate;
+    font-style: bold;
+    font-size: 30pt;
+    color: #920500;
+    text-align: center;
+}
+
+.pluginner {
+     font-family: Copperplate;
+     font-style: bold;
+     font-size: 30pt;
+     color: #000a92;
+     text-align: center;
+ }
+
+.moderatore {
+    font-family: Copperplate;
+    font-style: bold;
+    font-size: 30pt;
+    color: #006e17;
+    text-align: center;
+}
+
+.botdeveloper {
+    font-family: Copperplate;
+    font-style: bold;
+    font-size: 30pt;
+    color: #560092;
+    text-align: center;
+}
+
+.builder {
+    font-family: Copperplate;
+    font-style: bold;
+    font-size: 30pt;
+    color: #f0c730;
+    text-align: center;
+}
+
+.Nome-GABRYCA {
+    text-align: center;
+    color: #ff001d;
+}
+
+.Nome-sfera {
+     text-align: center;
+     color: #920500;
+}
+
+.Nome-zbatboy {
+     text-align: center;
+     color: #920500;
+}
+
+.Nome-emanuele {
+    text-align: center;
+    color: #000a92;
+}
+
+.Nome-ibreak {
+    text-align: center;
+    color: #000a92;
+}
+
+.Nome-miky {
+    text-align: center;
+    color: #560092;
+}
+
+.Nome-samplasion {
+    text-align: center;
+    color: #560092;
+}
+
+.Nome-valentina {
+    text-align: center;
+    color: #006e17;
+}
+
+.Nome-manuel {
+    text-align: center;
+    color: #006e17;
+}
+
+.Nome-SkyRich {
+    text-align: center;
+    color: #f0c730;
+}
+
+.Nome-theedison {
+    text-align: center;
+    color: #f0c730;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
