@@ -3,6 +3,7 @@ body {
     height: auto;
     margin: 0 auto;
     overflow-x: hidden;
+    background-color: rgba(0,0,0,0.9);
 }
 
 .Contatti {
@@ -29,7 +30,7 @@ body {
 
 .descrizione {
     text-align: center;
-    color: rgba(6,0,156,0.85);
+    color: #fff;
     font-family: Monaco;
 }
 
