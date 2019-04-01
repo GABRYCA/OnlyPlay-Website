@@ -7,6 +7,19 @@
 
     <link href="stili/main.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <script>
+        function changeCSS(cssFile, cssLinkIndex) {
+
+            var oldlink = document.getElementsByTagName("link").item(cssLinkIndex);
+
+            var newlink = document.createElement("link");
+            newlink.setAttribute("rel", "stylesheet");
+            newlink.setAttribute("type", "text/css");
+            newlink.setAttribute("href", cssFile);
+
+            document.getElementsByTagName("head").item(0).replaceChild(newlink, oldlink);
+        }
+    </script>
 
 </head>
 <body>
@@ -21,6 +34,10 @@
             <li><a href='Pagine/status.html'><span>Status</span></a></li>
             <li class='last'><a href='Pagine/Contatti.html'><span>Contatti</span></a></li>
         </ul>
+    </div>
+    <div class="contenitore-stile">
+    <a class="cambia-stile-Chiaro" href="#" onclick="changeCSS('stili/main.css', 0);">|Chiaro|  </a>
+    <a class="cambia-stile-Scuro" href="#" onclick="changeCSS('stili/main2.css', 0);"> |Scuro|</a>
     </div>
 </header>
 
