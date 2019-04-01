@@ -2,6 +2,7 @@ body {
     width: 100%;
     height: auto;
     margin: 0 auto;
+    background-color: rgba(0,0,0,0.8);
 }
 
 header {
@@ -12,7 +13,7 @@ header {
 .contenitore-stile {
     width: 130px;
     height: 60px;
-    background-color: #0a006c;
+    background-color: #252525;
     color: #fff;
     position: fixed;
     display: block;
@@ -36,7 +37,7 @@ header {
 }
 
 .ip {
-    color: #0000ff;
+    color: #fff;
     font-family: fantasy;
     position: relative;
     left: 15px;
@@ -78,7 +79,7 @@ header {
     text-align: center;
 }
 #cssmenu ul li a {
-    color: #0030eb;
+    color: #fff;
     text-decoration: none;
     display: block;
     padding: 15px 25px;
@@ -94,7 +95,7 @@ header {
     transition: color .25s;
 }
 #cssmenu ul li a:hover {
-    color: #333333;
+    color: #000;
 }
 #cssmenu ul li a:hover:before {
     width: 100%;
@@ -118,7 +119,7 @@ header {
     bottom: 0;
     height: 3px;
     width: 0;
-    background: #333333;
+    background: #000;
     -webkit-transition: width .25s;
     -moz-transition: width .25s;
     -ms-transition: width .25s;
@@ -130,7 +131,7 @@ header {
     display: none;
 }
 #cssmenu ul li.active a {
-    color: #333333;
+    color: #000;
 }
 #cssmenu ul li.active a:before {
     width: 100%;
@@ -147,8 +148,8 @@ header {
     width: 100%;
     height: auto;
     text-align: center;
-    border-top: #0000ff 5px solid;
-    border-bottom: #0000ff 5px solid;
+    border-top: rgba(0,0,0,0.35) 5px solid;
+    border-bottom: rgba(0,0,0,0.35) 5px solid;
     margin-top: 50px;
 }
 
@@ -163,7 +164,7 @@ header {
     font-size: 2.5em;
     border: none;
     border-radius: 10px;
-    background-color: #8100ff;
+    background-color: rgba(47,0,53,0.76);
     color: #fff;
     float: left;
     position: relative;
@@ -174,7 +175,7 @@ header {
 
 .Discord:hover {
     border-radius: 0px;
-    background-color: #6103ff;
+    background-color: #000;
 }
 
 .Votaci {
@@ -183,7 +184,7 @@ header {
     font-size: 2.5em;
     border: none;
     border-radius: 10px;
-    background-color: #1c8b12;
+    background-color: rgba(0,36,4,0.97);
     color: #fff;
     float: left;
     position: relative;
@@ -194,7 +195,7 @@ header {
 
 .Votaci:hover {
     border-radius: 0px;
-    background-color: #008b45;
+    background-color: #000;
 }
 
 @media screen and (max-width: 1600px) {
@@ -231,7 +232,7 @@ header {
 .Info-server {
     width: 100%;
     height: 500px;
-    background-color: #0021ec;
+    background-color: rgba(0,0,0,0.20);
     margin: 0 auto;
 }
 
@@ -280,7 +281,7 @@ header {
     float: left;
     width: 20%;
     text-align: center;
-    background-color: #0021ec;
+    background-color: rgba(0,0,0,0.01);
     border: rgba(0,236,59,0.55) 5px solid;
     border-radius: 15px;
     transition: 0.3s;
@@ -297,6 +298,7 @@ header {
     font-size: 3em;
     text-align: center;
     font-family: Athelas;
+    color: #fff
 }
 
 .modalità {
@@ -310,7 +312,7 @@ header {
 .OnlyPrison {
      width: 33%;
      height: 100%;
-     background-color: black;
+     background-color: rgba(0,0,0,0.33);
      text-align: center;
      color: #fff;
      float: left;
@@ -319,7 +321,7 @@ header {
 .OnlyFaction {
     width: 33%;
     height: 100%;
-    background-color: rgba(0,139,69,0.99);
+    background-color: rgba(0,0,0,0.20);
     text-align: center;
     color: #fff;
     float: left;
@@ -328,7 +330,7 @@ header {
 .OnlyCreative {
     width: 33%;
     height: 100%;
-    background-color: rgba(0,206,53,0.99);
+    background-color: rgba(0,0,0,0.1);
     text-align: center;
     color: #fff;
     float: left;
@@ -337,7 +339,7 @@ header {
 .footer {
     width: 100%;
     height: auto;
-    background-color: #002fe4;
+    background-color: rgba(0,0,0,0.5);
     position: relative;
     top: 100%;
     text-align: center;
