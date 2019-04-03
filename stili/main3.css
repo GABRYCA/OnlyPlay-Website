@@ -2,7 +2,7 @@ body {
     width: 100%;
     height: auto;
     margin: 0 auto;
-    background-color: rgba(0,0,0,0.8);
+    background-color: #000000;
 }
 
 header {
@@ -174,8 +174,8 @@ header {
     width: 100%;
     height: auto;
     text-align: center;
-    border-top: rgba(0,0,0,0.35) 5px solid;
-    border-bottom: rgba(0,0,0,0.35) 5px solid;
+    border-top: #191919 5px solid;
+    border-bottom: #191919 5px solid;
     margin-top: 50px;
 }
 
@@ -258,7 +258,7 @@ header {
 .Info-server {
     width: 100%;
     height: 500px;
-    background-color: rgba(0,0,0,0.20);
+    background-color: #0d0d0d;
     margin: 0 auto;
 }
 
@@ -336,18 +336,18 @@ header {
 }
 
 .OnlyPrison {
-     width: 33%;
-     height: 100%;
-     background-color: rgba(0,0,0,0.33);
-     text-align: center;
-     color: #fff;
-     float: left;
- }
+    width: 33%;
+    height: 100%;
+    background-color: #0d0d0d;
+    text-align: center;
+    color: #fff;
+    float: left;
+}
 
 .OnlyFaction {
     width: 33%;
     height: 100%;
-    background-color: rgba(0,0,0,0.20);
+    background-color: #0d0d0d;
     text-align: center;
     color: #fff;
     float: left;
@@ -356,7 +356,7 @@ header {
 .OnlyCreative {
     width: 33%;
     height: 100%;
-    background-color: rgba(0,0,0,0.1);
+    background-color: #0d0d0d;
     text-align: center;
     color: #fff;
     float: left;
@@ -365,7 +365,7 @@ header {
 .footer {
     width: 100%;
     height: auto;
-    background-color: rgba(0,0,0,0.5);
+    background-color: #060606;
     position: relative;
     top: 100%;
     text-align: center;

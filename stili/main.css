@@ -9,9 +9,30 @@ header {
     height: 70px;
 }
 
+.btn-group button {
+    border: 1px solid green;
+    padding: 10px 24px;
+    cursor: pointer;
+}
+
+.btn-group button:not(:last-child) {
+    border-right: none;
+}
+
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.btn-group button:hover {
+    background-color: #001abb;
+    color:#fff;
+}
+
 .contenitore-stile {
-    width: 130px;
-    height: 60px;
+    width: 110px;
+    height: 107px;
     background-color: #0a006c;
     color: #fff;
     position: fixed;
@@ -25,14 +46,19 @@ header {
 }
 
 .cambia-stile-Chiaro {
-    color: #fff;
-    background-color: rgba(0,0,0,0.81);
+    border-radius: 30px;
 }
 
 .cambia-stile-Scuro {
-    color: rgba(0,0,0,0.81);
-    background-color: #fff;
-    width: auto
+    border-radius: 30px;
+    background-color: #343434;
+    color: #fff;
+}
+
+.cambia-stile-Nero {
+    border-radius: 30px;
+    background-color: #000;
+    color: #fff;
 }
 
 .ip {
