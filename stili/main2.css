@@ -10,6 +10,14 @@ header {
     height: 70px;
 }
 
+.sidenav {
+    display: none;
+}
+
+.fa-bars {
+    display: none;
+}
+
 .btn-group button {
     border: 1px solid green;
     padding: 10px 24px;
@@ -226,6 +234,32 @@ header {
 
 @media screen and (max-width: 1600px) {
 
+    .contenitore-stile {
+        width: 273px;
+        height: 29px;
+        position: relative;
+        left: 40%;
+        top: 40px;
+    }
+
+    .cambia-stile-Chiaro {
+        border-radius: 30px;
+        position: relative;
+        top: -92px;
+    }
+
+    .cambia-stile-Scuro {
+        border-radius: 30px;
+        position: relative;
+        top: -92px;
+    }
+
+    .cambia-stile-Nero {
+        border-radius: 30px;
+        position: relative;
+        top: -92px;
+    }
+
     .contenitore-pulsanti {
         text-align: center;
         width: 600px;
@@ -251,8 +285,67 @@ header {
     #cssmenu {
         transform: scale(0.7);
         right: 0px;
+        display: none;
     }
 
+    /* Promemoria css del menu */
+    .sidenav {
+        display: block;
+        height: 100%; /* 100% Altezza */
+        width: 0; /* 0 larghezza - javascript la cambia sul click */
+        position: fixed; /* Scrollando la pagina, rimane in posizione */
+        z-index: 1; /* L'ho fissata in cima */
+        top: 0; /* Serve ad evitare che si sposti... a volte */
+        left: 0;
+        background-color: #383839; /* Colore */
+        overflow-x: hidden; /* Serve a non spostare la pagina orizzontalmente */
+        padding-top: 60px; /* Gli elementi sono spostati di 60px dalla cima */
+        transition: 0.5s; /* Un effetto carino all'apertura di mezzo secondo */
+        margin: auto;
+    }
+
+    /* I collegamenti alle pagine */
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #fff;
+        display: block;
+        transition: 0.3s;
+        text-align: center;
+    }
+
+    /* Quando passo sopra ai link, cambiano colore */
+    .sidenav a:hover {
+        color: #00b2ff;
+    }
+
+    /* Uno stile e la posizione del pulsante X  (Angolo in cima a destra) */
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+
+    .fa-bars {
+        display: table;
+        cursor: grab;
+        transform: scale(3);
+        position: fixed;
+        top: 5.5%;
+        left: 90%;
+        border-radius: 5px;
+        border: #fff solid 1px;
+        color: #737175;
+        transition: 0.5s;
+    }
+
+    .fa-bars:hover {
+        color: #000;
+        border: #00b2ff solid 1px;
+    }
 }
 
 .Info-server {

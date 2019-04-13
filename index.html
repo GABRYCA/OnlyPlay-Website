@@ -20,12 +20,32 @@
             document.getElementsByTagName("head").item(0).replaceChild(newlink, oldlink);
         }
     </script>
+    <script>
+        /* Apre la sezione */
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "100%";
+        }
 
+        /* Chiude e nasconde la sezione */
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
 </head>
 <body>
 
 <header>
     <h1 class="ip">MC.ONLYPLAY.TK</h1>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">Home</a>
+        <a href="#">Forum</a>
+        <a href="Pagine/status.html">Status</a>
+        <a href="Pagine/Contatti.html">Contatti</a>
+    </div>
+    <!-- Promemoria, questo è il pulsante -->
+    <span class="fas fa-bars" onclick="openNav()"></span>
 
     <div id='cssmenu'>
         <ul>
