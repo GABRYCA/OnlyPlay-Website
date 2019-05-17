@@ -1,0 +1,83 @@
+body {
+    width: auto;
+    height: auto;
+    background-color: #ffffff;
+}
+
+.blocco-sinistra {
+    width: 15%;
+    height: 100%;
+    border-right: solid black 0.2em;
+    background-color: #e6e6e6;
+    position: fixed;
+}
+
+.blocco-centrale {
+    width: 65%;
+    height: auto;
+}
+
+.blocco-destro {
+    width: 20%;
+    height: 100%;
+    border-left: solid black 0.2em;
+    background-color: #cacaca;
+    position: fixed;
+    left: 79.5%;
+}
+
+.immagine-sinistra {
+    width: auto;
+    height: 100%;
+    position: relative;
+    top: 7px;
+    border: #cccccc 0.2em solid;
+    border-radius: 10px;
+}
+
+.contenitore-immagine-sinistra {
+    width: 100%;
+    background-color: #c1c1c1;
+    height: auto;
+    border-bottom: solid black 0.1em;
+    border-bottom-left-radius: 10px;
+}
+
+.testo-plugins {
+    font-family: Copperplate;
+    position: relative;
+    left: -20px;
+}
+
+.Lista-plugins {
+    padding-top: 20px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+.elimina-cerchi {
+    list-style-type: none;
+}
+
+.plugins {
+    font-family: Copperplate;
+    padding-left: 20px;
+    color: #38b03b;
+    border-left: #b1b1b1 solid 0.2em;
+    list-style-type: none;
+}
+
+.plugins:hover {
+    transition: 0.3s;
+    color: #1a4c1d;
+    cursor: grabbing;
+}
+
+.downloads {
+    font-family: Copperplate;
+    font-size: 3em;
+    text-align: center;
+    border: #00a70d solid 0.1em;
+    border-radius: 10px;
+    color: #002707
+}
