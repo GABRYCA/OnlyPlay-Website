@@ -1,34 +1,44 @@
 body {
     width: auto;
-    height: auto;
-    background-color: #ffffff;
+    height: 100%;
+    background-color: #fff;
 }
 
 .blocco-sinistra {
-    width: 15%;
-    height: 100%;
+    width: 20%;
+    height: 99vh;
     border-right: solid black 0.2em;
+    position: relative;
     background-color: #e6e6e6;
-    position: fixed;
+    float: left;
 }
 
 .blocco-centrale {
-    width: 65%;
-    height: auto;
+    width: 59.5%;
+    height: 99vh;
+    position: relative;
+    text-align: center;
+    float: left;
+    font-family: Copperplate;
 }
 
 .blocco-destro {
     width: 20%;
-    height: 100%;
+    height: 99vh;
     border-left: solid black 0.2em;
     background-color: #cacaca;
-    position: fixed;
-    left: 79.5%;
+    position: relative;
+    float: left;
+}
+
+.immagine-titolo {
+    width: 80%;
+    height: auto;
 }
 
 .immagine-sinistra {
     width: auto;
-    height: 100%;
+    height: auto;
     position: relative;
     top: 7px;
     border: #cccccc 0.2em solid;
@@ -75,9 +85,52 @@ body {
 
 .downloads {
     font-family: Copperplate;
-    font-size: 3em;
+    padding: 13px 24px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #7ec954;
+    transition-property: all;
+    transition-duration: 0.15s;
+    transition-timing-function: ease-in-out;
     text-align: center;
-    border: #00a70d solid 0.1em;
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    top: 20px;
+}
+
+.downloads:hover {
+    background-color: #9bd57b;
+}
+
+.descrizione {
+    width: 46%;
+    height: auto;
+    background-color: #ffcb5d;
     border-radius: 10px;
-    color: #002707
+    float: left;
+    margin: 20px;
+}
+
+.comandi {
+    width: 46%;
+    height: auto;
+    background-color: #7fc2ff;
+    border-radius: 10px;
+    float: left;
+    margin: 20px;
+}
+
+.Permessi {
+    width: 46%;
+    height: auto;
+    background-color: #ff8969;
+    border-radius: 10px;
+    float: left;
+    margin: 20px;
+    margin-top: -10px;
 }
