@@ -1,12 +1,12 @@
 body {
     width: 1920px;
-    height: 100%;
+    height: 100vh;
     background-color: #fff;
 }
 
 .blocco-sinistra {
     width: 380px;
-    height: 99vh;
+    height: 100%;
     border-right: solid black 0.2em;
     position: relative;
     background-color: #e6e6e6;
@@ -15,7 +15,7 @@ body {
 
 .blocco-centrale {
     width: 1135px;
-    height: 99vh;
+    height: 100%;
     position: relative;
     text-align: center;
     float: left;
@@ -24,7 +24,7 @@ body {
 
 .blocco-destro {
     width: 385px;
-    height: 99vh;
+    height: 100%;
     border-left: solid black 0.2em;
     background-color: #cacaca;
     position: relative;
