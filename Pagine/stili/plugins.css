@@ -1,11 +1,11 @@
 body {
-    width: 1920px;
+    width: 100%;
     height: 100vh;
     background-color: #fff;
 }
 
 .blocco-sinistra {
-    width: 380px;
+    width: 25%;
     height: 100%;
     border-right: solid black 0.2em;
     position: relative;
@@ -14,7 +14,7 @@ body {
 }
 
 .blocco-centrale {
-    width: 1135px;
+    width: 49%;
     height: 100%;
     position: relative;
     text-align: center;
@@ -23,7 +23,7 @@ body {
 }
 
 .blocco-destro {
-    width: 385px;
+    width: 25%;
     height: 100%;
     border-left: solid black 0.2em;
     background-color: #cacaca;
@@ -108,7 +108,7 @@ body {
 }
 
 .descrizione {
-    width: 46%;
+    width: 45%;
     height: auto;
     background-color: #ffcb5d;
     border-radius: 10px;
@@ -117,7 +117,7 @@ body {
 }
 
 .comandi {
-    width: 46%;
+    width: 45%;
     height: auto;
     background-color: #7fc2ff;
     border-radius: 10px;
@@ -126,7 +126,7 @@ body {
 }
 
 .Permessi {
-    width: 46%;
+    width: 45%;
     height: auto;
     background-color: #ff8969;
     border-radius: 10px;
