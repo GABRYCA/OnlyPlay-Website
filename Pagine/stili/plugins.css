@@ -151,15 +151,27 @@
         width: 48.5%;
     }
 
-    .testo-plugins {
-        font-size: medium;
+    .blocco-sinistra {
+        float: none;
+        width: 100%;
+        height: auto;
+        border-right: none;
     }
 
-    .plugins {
-        font-size: small;
+    .blocco-centrale {
+        width: 100%;
+        float: none;
+        height: auto;
+    }
+
+    .blocco-destro {
+        float: none;
+        width: 100%;
+        height: auto;
+        border-left: none;
     }
 
     .Lista-plugins {
-        padding-left: 18%;
+        padding-left: 40%;
     }
 }
