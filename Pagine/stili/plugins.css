@@ -1,12 +1,6 @@
-body {
-    width: 100%;
-    height: 100vh;
-    background-color: #fff;
-}
-
 .blocco-sinistra {
     width: 25%;
-    height: 100%;
+    height: 100vh;
     border-right: solid black 0.2em;
     position: relative;
     background-color: #e6e6e6;
@@ -15,7 +9,7 @@ body {
 
 .blocco-centrale {
     width: 49%;
-    height: 100%;
+    height: 100vh;
     position: relative;
     text-align: center;
     float: left;
@@ -24,7 +18,7 @@ body {
 
 .blocco-destro {
     width: 25%;
-    height: 100%;
+    height: 100vh;
     border-left: solid black 0.2em;
     background-color: #cacaca;
     position: relative;
@@ -61,7 +55,6 @@ body {
 
 .Lista-plugins {
     padding-top: 20px;
-    border-radius: 10px;
     padding-bottom: 20px;
 }
 
@@ -133,4 +126,40 @@ body {
     float: left;
     margin: 20px;
     margin-top: -10px;
+}
+
+@media screen and (max-width: 1600px) {
+    .descrizione {
+        width: 90%;
+        margin: auto;
+        float: none;
+    }
+
+    .comandi {
+        width: 90%;
+        margin: auto;
+        float: none;
+    }
+
+    .Permessi {
+        width: 90%;
+        margin: auto;
+        float: none;
+    }
+
+    .blocco-centrale {
+        width: 48.5%;
+    }
+
+    .testo-plugins {
+        font-size: medium;
+    }
+
+    .plugins {
+        font-size: small;
+    }
+
+    .Lista-plugins {
+        padding-left: 18%;
+    }
 }
